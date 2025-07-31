@@ -2,17 +2,17 @@ const keepAlive = async () => {
     const services = [
         {
             name: 'Render Backend',
-            url: process.env.RENDER_URL || 'https://tu-app.onrender.com/api/health/healthCheck',
+            url: process.env.RENDER_URL || 'https://myfitapp.onrender.com/api/health/backEndCheck',
             type: 'backend'
         },
         {
             name: 'Vercel Frontend',
-            url: process.env.VERCEL_URL || 'https://tu-app.vercel.app',
+            url: process.env.VERCEL_URL || 'https://myfitappp.vercel.app',
             type: 'frontend'
         },
         {
             name: 'Aiven Database',
-            url: process.env.RENDER_URL || 'https://tu-app.onrender.com/api/health/healthCheck', // Usar endpoint que haga query a DB
+            url: process.env.RENDER_URL || 'https://myfitapp.onrender.com/api/health/dataBaseCheck',
             type: 'database'
         }
     ];
