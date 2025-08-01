@@ -12,7 +12,7 @@ const keepAlive = async () => {
         },
         {
             name: 'Aiven Database',
-            url: process.env.RENDER_URL || 'https://myfitapp.onrender.com/api/health/dataBaseCheck',
+            url: process.env.AIVEN_URL || 'https://myfitapp.onrender.com/api/health/dataBaseCheck',
             type: 'database'
         }
     ];
